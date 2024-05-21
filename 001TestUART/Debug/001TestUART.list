@@ -119,7 +119,7 @@ int main(void)
  800016c:	f000 f850 	bl	8000210 <MX_USART2_UART_Init>
   /* USER CODE BEGIN 2 */
 
-  HAL_UART_Transmit(&huart2, (uint8_t*)user_data, strlen(user_data), HAL_MAX_DELAY);
+  HAL_UART_Transmit(&huart2, (uint8_t*)user_data, strlen(user_data), HAL_MAX_DELAY); // send data
  8000170:	4b07      	ldr	r3, [pc, #28]	; (8000190 <main+0x34>)
  8000172:	681c      	ldr	r4, [r3, #0]
  8000174:	4b06      	ldr	r3, [pc, #24]	; (8000190 <main+0x34>)
