@@ -1,0 +1,18 @@
+!SESSION 2024-05-27 14:03:10.667 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\arath\Desktop\Embedded Software\Mastering Microcontrollers Timers, PWM, CAN, Low Power\MCU2\my_workspace\MasteringMCU2_WS
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-05-27 14:03:14.583
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-05-27 14:03:14.636
+!MESSAGE Log4j initialized with config file C:\Users\arath\Desktop\Embedded Software\Mastering Microcontrollers Timers, PWM, CAN, Low Power\MCU2\my_workspace\MasteringMCU2_WS\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-05-27 14:03:27.765
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-05-27 14:49:36.639
+!MESSAGE Indexed 'UART2_Example' (17 sources, 78 headers) in 1.77 sec: 3,642 declarations; 13,230 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
