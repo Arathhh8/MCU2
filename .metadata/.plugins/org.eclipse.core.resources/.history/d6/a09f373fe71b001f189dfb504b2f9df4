@@ -40,7 +40,7 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
-UART_HandleTypeDef huart2; // structure to handle and control the UART peripheral
+UART_HandleTypeDef huart2;
 char *user_data = "Hello World!\r\n";
 
 /* USER CODE BEGIN PV */
