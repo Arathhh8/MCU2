@@ -19,7 +19,7 @@ int main(void){
 
 	HAL_Init();
 	SystemClockConfig();
-	UART2_Init(); // high level peripheral initialization
+	UART2_Init();
 
 	return 0;
 }

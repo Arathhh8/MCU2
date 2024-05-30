@@ -18,8 +18,5 @@ void HAL_MspInit(void)
 	SCB->SHCSR |= 0x7 << 16; // enable usage fault, memory fault and bus fault system exeptions
 
 	// 3. Configure the priority for the system exceptions
-	HAL_NVIC_SetPriority(MemoryManagement_IRQn, 0x00, 0x00);
-	HAL_NVIC_SetPriority(BusFault_IRQn, 0x00, 0x00);
-	HAL_NVIC_SetPriority(UsageFault_IRQn, 0x00, 0x00);
 
 }
