@@ -1,1 +1,1 @@
-../Core/Src/msp.c:9:6:HAL_MspInit	4	static
+../Core/Src/msp.c:10:6:HAL_MspInit	8	static
