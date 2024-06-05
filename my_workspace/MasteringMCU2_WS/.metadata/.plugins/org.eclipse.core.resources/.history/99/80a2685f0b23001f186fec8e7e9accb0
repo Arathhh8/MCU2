@@ -41,7 +41,7 @@ int main(void){
 		}
 	}
 
-	//data_buffer[count++] = "\r";
+	data_buffer[count++] = "\r";
 
 	HAL_UART_Transmit(&huart2, data_buffer, count, HAL_MAX_DELAY);
 

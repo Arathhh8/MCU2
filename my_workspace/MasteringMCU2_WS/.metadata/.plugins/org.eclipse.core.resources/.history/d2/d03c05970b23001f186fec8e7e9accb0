@@ -30,7 +30,7 @@ int main(void){
 
 
 	uint8_t rcvd_data;
-	uint8_t data_buffer[100];
+	uint8_t data_buffer[200];
 	uint32_t count = 0;
 	while(1){
 		HAL_UART_Receive(&huart2, &rcvd_data, 1, HAL_MAX_DELAY);
@@ -41,7 +41,7 @@ int main(void){
 		}
 	}
 
-	//data_buffer[count++] = "\r";
+	data_buffer[count++] = "\r";
 
 	HAL_UART_Transmit(&huart2, data_buffer, count, HAL_MAX_DELAY);
 
