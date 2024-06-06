@@ -32,21 +32,18 @@ int main(void){
 	uint8_t rcvd_data;
 	uint8_t data_buffer[100];
 	uint32_t count = 0;
-
-	// Clearing buffer before data reception
-	memset(data_buffer, 0, sizeof(data_buffer));
-
 	while(1){
-
 		HAL_UART_Receive(&huart2, &rcvd_data, 1, HAL_MAX_DELAY);
 		if(rcvd_data == '\r'){
 			break;
 		}else{
-			data_buffer[count++] = rcvd_data;
+			//data_buffer[count] = rcvd_data;
+			data_buffer[0] = 'a';
+			count++;
 		}
 	}
 
-	data_buffer[count++] = '\r';
+	//data_buffer[count++] = "\r";
 
 	HAL_UART_Transmit(&huart2, data_buffer, count, HAL_MAX_DELAY);
 
@@ -96,7 +93,7 @@ void UART2_Init(void){
 	huart2.Init.Parity = UART_PARITY_NONE;
 	huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
 	huart2.Init.Mode = UART_MODE_TX_RX;
-	//huart2.Init.OverSampling = UART_OVERSAMPLING_16;
+	huart2.Init.OverSampling = UART_OVERSAMPLING_16;
 	if( HAL_UART_Init(&huart2) != HAL_OK ){
 		// There is a problem
 		Error_handler();

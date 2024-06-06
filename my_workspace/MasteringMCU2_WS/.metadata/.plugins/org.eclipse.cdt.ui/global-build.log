@@ -5,3 +5,126 @@ arm-none-eabi-size   UART2_Example.elf
    5996	     24	   1640	   7660	   1dec	UART2_Example.elf
 Finished building: default.size.stdout
  
+14:46:39 **** Incremental Build of configuration Debug for project UART2_Example ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main_app.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main_app.d" -MT"Core/Src/main_app.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main_app.o"
+arm-none-eabi-gcc -o "UART2_Example.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\arath\Desktop\Embedded Software\Mastering Microcontrollers Timers, PWM, CAN, Low Power\MCU2\my_workspace\MasteringMCU2_WS\UART2_Example\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART2_Example.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART2_Example.elf
+ 
+arm-none-eabi-size   UART2_Example.elf 
+arm-none-eabi-objdump -h -S  UART2_Example.elf  > "UART2_Example.list"
+   text	   data	    bss	    dec	    hex	filename
+   6000	     24	   1640	   7664	   1df0	UART2_Example.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART2_Example.list
+ 
+14:51:51 **** Incremental Build of configuration Debug for project UART2_Example ****
+make -j12 all 
+arm-none-eabi-size   UART2_Example.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6000	     24	   1640	   7664	   1df0	UART2_Example.elf
+Finished building: default.size.stdout
+ 
+14:59:23 **** Incremental Build of configuration Debug for project UART2_Example ****
+make -j12 all 
+arm-none-eabi-size   UART2_Example.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6000	     24	   1640	   7664	   1df0	UART2_Example.elf
+Finished building: default.size.stdout
+ 
+15:02:13 **** Incremental Build of configuration Debug for project UART2_Example ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main_app.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main_app.d" -MT"Core/Src/main_app.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main_app.o"
+arm-none-eabi-gcc -o "UART2_Example.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\arath\Desktop\Embedded Software\Mastering Microcontrollers Timers, PWM, CAN, Low Power\MCU2\my_workspace\MasteringMCU2_WS\UART2_Example\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART2_Example.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART2_Example.elf
+ 
+arm-none-eabi-size   UART2_Example.elf 
+arm-none-eabi-objdump -h -S  UART2_Example.elf  > "UART2_Example.list"
+   text	   data	    bss	    dec	    hex	filename
+   5988	     24	   1640	   7652	   1de4	UART2_Example.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART2_Example.list
+ 
+15:03:40 **** Incremental Build of configuration Debug for project UART2_Example ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main_app.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main_app.d" -MT"Core/Src/main_app.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main_app.o"
+arm-none-eabi-gcc -o "UART2_Example.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\arath\Desktop\Embedded Software\Mastering Microcontrollers Timers, PWM, CAN, Low Power\MCU2\my_workspace\MasteringMCU2_WS\UART2_Example\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART2_Example.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART2_Example.elf
+ 
+arm-none-eabi-size   UART2_Example.elf 
+arm-none-eabi-objdump -h -S  UART2_Example.elf  > "UART2_Example.list"
+   text	   data	    bss	    dec	    hex	filename
+   6000	     24	   1640	   7664	   1df0	UART2_Example.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART2_Example.list
+ 
+15:10:03 **** Incremental Build of configuration Debug for project UART2_Example ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main_app.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main_app.d" -MT"Core/Src/main_app.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main_app.o"
+../Core/Src/main_app.c: In function 'main':
+../Core/Src/main_app.c:44:23: warning: assignment to 'uint8_t' {aka 'unsigned char'} from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   44 |  data_buffer[count++] = "\r";
+      |                       ^
+arm-none-eabi-gcc -o "UART2_Example.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\arath\Desktop\Embedded Software\Mastering Microcontrollers Timers, PWM, CAN, Low Power\MCU2\my_workspace\MasteringMCU2_WS\UART2_Example\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART2_Example.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART2_Example.elf
+ 
+arm-none-eabi-size   UART2_Example.elf 
+arm-none-eabi-objdump -h -S  UART2_Example.elf  > "UART2_Example.list"
+   text	   data	    bss	    dec	    hex	filename
+   6016	     24	   1640	   7680	   1e00	UART2_Example.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART2_Example.list
+ 
+15:10:48 **** Incremental Build of configuration Debug for project UART2_Example ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main_app.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main_app.d" -MT"Core/Src/main_app.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main_app.o"
+arm-none-eabi-gcc -o "UART2_Example.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\arath\Desktop\Embedded Software\Mastering Microcontrollers Timers, PWM, CAN, Low Power\MCU2\my_workspace\MasteringMCU2_WS\UART2_Example\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART2_Example.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART2_Example.elf
+ 
+arm-none-eabi-size   UART2_Example.elf 
+arm-none-eabi-objdump -h -S  UART2_Example.elf  > "UART2_Example.list"
+   text	   data	    bss	    dec	    hex	filename
+   6004	     24	   1640	   7668	   1df4	UART2_Example.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART2_Example.list
+ 
+15:18:29 **** Incremental Build of configuration Debug for project UART2_Example ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main_app.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main_app.d" -MT"Core/Src/main_app.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main_app.o"
+arm-none-eabi-gcc -o "UART2_Example.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\arath\Desktop\Embedded Software\Mastering Microcontrollers Timers, PWM, CAN, Low Power\MCU2\my_workspace\MasteringMCU2_WS\UART2_Example\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART2_Example.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART2_Example.elf
+ 
+arm-none-eabi-size   UART2_Example.elf 
+arm-none-eabi-objdump -h -S  UART2_Example.elf  > "UART2_Example.list"
+   text	   data	    bss	    dec	    hex	filename
+   6016	     24	   1640	   7680	   1e00	UART2_Example.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART2_Example.list
+ 
+15:18:42 **** Incremental Build of configuration Debug for project UART2_Example ****
+make -j12 all 
+arm-none-eabi-size   UART2_Example.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6016	     24	   1640	   7680	   1e00	UART2_Example.elf
+Finished building: default.size.stdout
+ 
+15:22:03 **** Incremental Build of configuration Debug for project UART2_Example ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main_app.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main_app.d" -MT"Core/Src/main_app.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main_app.o"
+arm-none-eabi-gcc -o "UART2_Example.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\arath\Desktop\Embedded Software\Mastering Microcontrollers Timers, PWM, CAN, Low Power\MCU2\my_workspace\MasteringMCU2_WS\UART2_Example\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART2_Example.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART2_Example.elf
+ 
+arm-none-eabi-size   UART2_Example.elf 
+arm-none-eabi-objdump -h -S  UART2_Example.elf  > "UART2_Example.list"
+   text	   data	    bss	    dec	    hex	filename
+   6016	     24	   1640	   7680	   1e00	UART2_Example.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART2_Example.list
+ 

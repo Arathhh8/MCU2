@@ -32,12 +32,7 @@ int main(void){
 	uint8_t rcvd_data;
 	uint8_t data_buffer[100];
 	uint32_t count = 0;
-
-	// Clearing buffer before data reception
-	memset(data_buffer, 0, sizeof(data_buffer));
-
 	while(1){
-
 		HAL_UART_Receive(&huart2, &rcvd_data, 1, HAL_MAX_DELAY);
 		if(rcvd_data == '\r'){
 			break;
@@ -46,7 +41,7 @@ int main(void){
 		}
 	}
 
-	data_buffer[count++] = '\r';
+	data_buffer[count++] = "\r";
 
 	HAL_UART_Transmit(&huart2, data_buffer, count, HAL_MAX_DELAY);
 
