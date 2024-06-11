@@ -201,3 +201,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-06-11 01:05:23.518
 !MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-06-11 01:52:21.476
+!MESSAGE Indexed 'UART2_Example_IT' (18 sources, 109 headers) in 1.79 sec: 7,965 declarations; 31,151 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.48%)
