@@ -107,7 +107,7 @@ void UART2_Init(void){
 
 uint8_t convert_to_capital(uint8_t data){
 
-	if(data >= 'a' && data <= 'z'){
+	if(data > 'a' && data <= 'z'){
 		data = data - ('a' - 'A');
 	}
 

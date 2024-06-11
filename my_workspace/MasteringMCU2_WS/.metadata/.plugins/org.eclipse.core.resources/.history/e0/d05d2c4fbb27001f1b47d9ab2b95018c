@@ -13,7 +13,6 @@
 void SystemClock_Config(void);
 void UART2_Init(void);
 void Error_handler(void);
-uint8_t convert_to_capital(uint8_t data);
 
 UART_HandleTypeDef huart2;
 
@@ -43,7 +42,7 @@ int main(void){
 		if(rcvd_data == '\r'){
 			break;
 		}else{
-			data_buffer[count++] = convert_to_capital(rcvd_data);
+			data_buffer[count++] = rcvd_data;
 		}
 	}
 
@@ -103,15 +102,6 @@ void UART2_Init(void){
 		Error_handler();
 	}
 
-}
-
-uint8_t convert_to_capital(uint8_t data){
-
-	if(data >= 'a' && data <= 'z'){
-		data = data - ('a' - 'A');
-	}
-
-	return data;
 }
 
 void Error_handler(void){
