@@ -355,6 +355,8 @@ void HAL_MspInit(void)
  80002b2:	f06f 0009 	mvn.w	r0, #9
  80002b6:	f000 f9ac 	bl	8000612 <HAL_NVIC_SetPriority>
 
+	// to delete
+
 }
  80002ba:	bf00      	nop
  80002bc:	bd80      	pop	{r7, pc}

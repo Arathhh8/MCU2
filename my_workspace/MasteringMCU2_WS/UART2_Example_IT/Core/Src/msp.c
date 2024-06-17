@@ -22,6 +22,8 @@ void HAL_MspInit(void)
 	HAL_NVIC_SetPriority(BusFault_IRQn, 0, 0);
 	HAL_NVIC_SetPriority(UsageFault_IRQn, 0, 0);
 
+	// to delete
+
 }
 
 
